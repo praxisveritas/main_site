@@ -16,9 +16,9 @@
   {
     "objectID": "subs/index.html",
     "href": "subs/index.html",
-    "title": "Subscribe",
+    "title": "Why Subscribe?",
     "section": "",
-    "text": "Why Subscribe?\n\nAccess the full time series of market regime probability forecasts and relevant underlying indicators.\nAccess more assets and underlying indicators than included in the Indicators section of this site.\nEnable continued research and improved data access for more salient indicators in the future.\nWrite to [subscribe@praxisveritas.io] for more info. For now, access will be limited to accredited institutional investors."
+    "text": "Access the full time series of market regime probability forecasts and relevant underlying indicators.\nAccess more assets and underlying indicators than included in the Indicators section of this site.\nPotential for custom work on target assets.\nEnable continued research and improved data access for more salient indicators in the future.\nWrite to [subscribe@praxisveritas.io] for more info. For now, access will be limited to accredited institutional investors."
   },
   {
     "objectID": "underlying/index.html",
@@ -32,7 +32,7 @@
     "href": "about/index.html",
     "title": "About + Links",
     "section": "",
-    "text": "About\n\nThe work undertaken here is informed by a decade and a half of tinkering, refining and experimenting with asset prices, their drivers and a coherent, consistent system for their analysis. That includes time at large global macro funds, one of the largest asset managers globally and at a central bank as well participating in the Numer.ai competition for 5+ years.\nNonetheless, markets don’t care about any of that. The quality of the work should speak for itself.\n\nLinks\n\nUnderlying data sourced from: Yahoo Finance, Bank of England, Federal Reserve Bank of St. Louis, CoinMetrics, Etherscan\nAll work in R. Charting via dygraphs. Site built with Quarto\nIntroductory Econometrics for Finance\nMacrosynergy, formely Sr-Sv\nNumerai\nResearch Papers: Principal Components as a Measure of Systemic Risk/ Many of Rob Hyndman’s publications"
+    "text": "About\n\nThe work undertaken here is informed by a decade and a half of tinkering, refining and experimenting with asset prices, their drivers and a coherent, consistent system for their analysis. That includes time at large global macro funds, one of the largest asset managers globally and at a central bank as well participating in the Numer.ai competition for 5+ years.\nNonetheless, markets don’t care about any of that. The quality of the work should speak for itself.\n\nLinks\n\nUnderlying data sourced from: Yahoo Finance, Bank of England, Federal Reserve Bank of St. Louis, CoinMetrics, Etherscan\nAll work in R. Charting via dygraphs. Site built with Quarto\nNumerai\nIntroductory Econometrics for Finance\nMacrosynergy, formely Sr-Sv\nResearch Papers: Principal Components as a Measure of Systemic Risk/ Many of Rob Hyndman’s publications"
   },
   {
     "objectID": "probs/index.html",
