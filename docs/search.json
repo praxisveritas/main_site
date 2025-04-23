@@ -47,5 +47,19 @@
     "title": "60 Second Summary",
     "section": "",
     "text": "Learn More:"
+  },
+  {
+    "objectID": "underlying_ubs/index.html",
+    "href": "underlying_ubs/index.html",
+    "title": "UBS: Informative Underlying Indicators",
+    "section": "",
+    "text": "Global Cyclical Growth Factors\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFIXED INCOME: Market-Based Monetary Policy Factors\n\nRange on y-axis from bottom to top is dovish/loosening to hawkish/tightening\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUS Equity vs. Treasury Volatility Differentials, Return Correlation\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUS 10Y Breakeven Yields and Commodity Prices\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUS Treasury Curve PCA Analysis\n\n\n\n\n\n\n\n\n\nUS Rate Implied, Historical Volatility Comparisons\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarket-Based and Economic Data-Based Trend Inflation Deviation Factors\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFX: Broad USD Indicators\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCOMMODITIES: Gold Regression Residuals\n\n\n\n\n\n\n\n\n\nCRYPTO: BTC/USD Relevant Macro Correlations\n\n\n\n\n\n\n\n\n\nBTC/USD Sensitivity to Financial Conditions Changes\n\nFinancial conditions indices are typically constructed such that positive/rising values indicate tightening. Ex-ante, one would expect negative sensitivity readings in an environment of tight crypto&lt;-&gt;macro market linkages.\n\n\n\n\n\n\n\n\n\n\nBTC Exchange Net Flows\n\n\n\n\n\n\n\n\n\nETH Centralized Exchange Net Flow Metrics\n\n\n\n\n\n\n\n\n\nETH Centralized Exchange Net Flow Metrics"
+  },
+  {
+    "objectID": "probs_ubs/index.html",
+    "href": "probs_ubs/index.html",
+    "title": "UBS: Market Regime Probabilities",
+    "section": "",
+    "text": "FX: Dollar Index\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGBPUSD\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEURUSD\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAUDUSD\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEquity: S&P500\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNASDAQ\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUS Financials\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUS Consumer Discretionary\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInternational Equities: MSCI Eurozone\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMSCI EM\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFixed Income: Duration\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHigh Yield Credit\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCommodities: Copper\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCrypto: Bitcoin/USD\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nETH/USD"
   }
 ]
