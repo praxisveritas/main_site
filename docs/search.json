@@ -7,11 +7,18 @@
     "text": "Main Goals\n\nStart from the basic question: What is the likelihood that a given asset’s price will rise or fall in the next few months?\nFind the most meaningful forward-looking information for asset prices. In the spirit of the most thoughtful global macro analytical approaches, incorporate loosely-correlated features that dimension various drivers of asset price formation: policy expectations, cyclical data evolution, cyclically sensitive asset dynamics, various risk premia, cross-asset class dynamics, etc.\nUse a machine-learning apparatus to aggregate these data into one summary metric. Prioritize interpretability and consistency to increase confidence in live performance.\n\nWhy?\n\nThe world is awash with research, commentary and anecdotal observations about asset prices. Tools like TradingView have enabled countless to dabble in the necromancy of technical analysis.\nStill, it is exceedingly rare to find the sort of analysis that takes a multifaceted approach; which conditions the overall view on the direction of prices on the state of many different drivers. In fact, the celebrated gut feel of well-known traders and investors may be a form of multi-dimensional analysis along these lines, which through experience and time, becomes instinct.\nWe have data at a high frequency for multiple decades making today a better time than ever for a more thorough investigation.\n\n\nBrief Illustrated Methodology:\n\nStart with the raw price series.  Turn it into connecting linear segments. It’s less noisy like this.  The linear segments move up or down, which determines the two regimes highlighted below.  Features used to predict regimes capture various relevant asset price drivers. Let’s make them comparable with some initial pre-processing. We will use lagged versions of these features to predict asset price regimes, enabling us to look forward at the risks of price increases or declines in coming months.\n Now we can calibrate model parameters with a gradually expanding training window. Many performance approaches exist. One is to save the last, more recent part of our dataset from any modeling work and compare metrics on this live set with the calibration test sets.\n  Finally, let’s examine regime predictions which summarise the risk of a given asset’s price rising or falling. Daily probability estimates arrive in advance of actual price action.\n\n\n\n   See the Indicators:"
   },
   {
+    "objectID": "underlying_ubs/index.html",
+    "href": "underlying_ubs/index.html",
+    "title": "UBS: Informative Underlying Indicators",
+    "section": "",
+    "text": "Global Cyclical Growth Factors\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFIXED INCOME: Market-Based Monetary Policy Factors\n\nRange on y-axis from bottom to top is dovish/loosening to hawkish/tightening\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUS Equity vs. Treasury Volatility Differentials, Return Correlation\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUS 10Y Breakeven Yields and Commodity Prices\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUS Treasury Curve PCA Analysis\n\n\n\n\n\n\n\n\n\nUS Rate Implied, Historical Volatility Comparisons\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarket-Based and Economic Data-Based Trend Inflation Deviation Factors\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFX: Broad USD Indicators\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCOMMODITIES: Gold Regression Residuals\n\n\n\n\n\n\n\n\n\nCRYPTO: BTC/USD Relevant Macro Correlations\n\n\n\n\n\n\n\n\n\nBTC/USD Sensitivity to Financial Conditions Changes\n\nFinancial conditions indices are typically constructed such that positive/rising values indicate tightening. Ex-ante, one would expect negative sensitivity readings in an environment of tight crypto&lt;-&gt;macro market linkages.\n\n\n\n\n\n\n\n\n\n\nBTC Exchange Net Flows\n\n\n\n\n\n\n\n\n\nETH Centralized Exchange Net Flow Metrics\n\n\n\n\n\n\n\n\n\nETH Centralized Exchange Net Flow Metrics"
+  },
+  {
     "objectID": "probs/index.html",
     "href": "probs/index.html",
     "title": "Market Regime Probabilities",
     "section": "",
-    "text": "Note: More assets as well as full extended time series of predictions are available to subscribers\nFX: Dollar Index\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGBPUSD\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEURUSD\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAUDUSD\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEquity: S&P500\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNASDAQ\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUS Financials\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUS Consumer Discretionary\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInternational Equities: MSCI Eurozone\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMSCI EM\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFixed Income: Duration\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHigh Yield Credit\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCrypto: Bitcoin/USD"
+    "text": "Note: More assets as well as full extended time series of predictions are available to subscribers\nFX: Dollar Index\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGBPUSD\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEURUSD\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAUDUSD\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEquity: S&P500\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNASDAQ\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUS Financials\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUS Consumer Discretionary\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInternational Equities: MSCI Eurozone\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMSCI EM\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFixed Income: Duration\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHigh Yield Credit\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCrypto: Bitcoin/USD"
   },
   {
     "objectID": "about/index.html",
@@ -21,11 +28,11 @@
     "text": "About\n\nThe work undertaken here is informed by a decade and a half of tinkering, refining and experimenting with asset prices, their drivers and a coherent, consistent system for their analysis. That includes time at large global macro funds, one of the largest asset managers globally and at a central bank as well participating in the Numer.ai competition for 5+ years.\nNonetheless, markets don’t care about any of that. The quality of the work should speak for itself.\n\nLinks\n\nUnderlying data sourced from: Yahoo Finance, Bank of England, Federal Reserve Bank of St. Louis, CoinMetrics, Etherscan\nAll work in R. Charting via dygraphs. Site built with Quarto\nNumerai\nIntroductory Econometrics for Finance\nMacrosynergy, formely Sr-Sv\nResearch Papers: Principal Components as a Measure of Systemic Risk/ Many of Rob Hyndman’s publications"
   },
   {
-    "objectID": "underlying/index.html",
-    "href": "underlying/index.html",
-    "title": "Informative Underlying Indicators",
+    "objectID": "voxmacro/index.html",
+    "href": "voxmacro/index.html",
+    "title": "Redirecting to Vox|Macro…",
     "section": "",
-    "text": "Market-Based Monetary Policy Factors\n\nRange on y-axis from bottom to top is dovish/loosening to hawkish/tightening\n\n\n\n\n\n\n\n\n\n\nGlobal Cyclical Growth Factors\n\n\n\n\n\n\n\n\n\nMarket-Based and Economic Data-Based Trend Inflation Deviation Factors\n\n\n\n\n\n\n\n\n\nUS Equity vs. Treasury 3M Volatility Differential and Return Correlation\n\n\n\n\n\n\n\n\n\nUS 10Y Breakeven Yields and Commodity Prices\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBTC/USD Relevant Macro Correlations\n\n\n\n\n\n\n\n\n\nBTC/USD Sensitivity to Financial Conditions Changes\n\nFinancial conditions indices are typically constructed such that positive/rising values indicate tightening. Ex-ante, one would expect negative sensitivity readings in an environment of tight crypto&lt;-&gt;macro market linkages.\n\n\n\n\n\n\n\n\n\n\nBTC Exchange Net Flows\n\n\n\n\n\n\n\n\n\nETH Centralized Exchange Net Flow Metrics\n\n\n\n\n\n\n\n\n\nETH Centralized Exchange Net Flow Metrics"
+    "text": "Redirecting to Vox|Macro…\nIf you are not redirected automatically, click here."
   },
   {
     "objectID": "subs/index.html",
@@ -33,6 +40,20 @@
     "title": "Why Subscribe?",
     "section": "",
     "text": "Access the full time series of market regime probability forecasts and relevant underlying indicators.\nAccess more assets and underlying indicators than included in the Indicators section of this site.\nPotential for custom work on target assets.\nEnable continued research and improved data access for more salient indicators in the future.\nWrite to [subscribe@praxisveritas.io] for more info. For now, access will be limited to accredited institutional investors."
+  },
+  {
+    "objectID": "probs_ubs/index.html",
+    "href": "probs_ubs/index.html",
+    "title": "UBS: Market Regime Probabilities",
+    "section": "",
+    "text": "FX: Dollar Index\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGBPUSD\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEURUSD\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAUDUSD\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEquity: S&P500\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNASDAQ\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUS Financials\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUS Consumer Discretionary\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInternational Equities: MSCI Eurozone\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMSCI EM\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFixed Income: Duration\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHigh Yield Credit\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCommodities: Copper\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCrypto: Bitcoin/USD\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nETH/USD"
+  },
+  {
+    "objectID": "underlying/index.html",
+    "href": "underlying/index.html",
+    "title": "Informative Underlying Indicators",
+    "section": "",
+    "text": "Market-Based Monetary Policy Factors\n\nRange on y-axis from bottom to top is dovish/loosening to hawkish/tightening\n\n\n\n\n\n\n\n\n\n\nGlobal Cyclical Growth Factors\n\n\n\n\n\n\n\n\n\nMarket-Based and Economic Data-Based Trend Inflation Deviation Factors\n\n\n\n\n\n\n\n\n\nUS Equity vs. Treasury 3M Volatility Differential and Return Correlation\n\n\n\n\n\n\n\n\n\nUS 10Y Breakeven Yields and Commodity Prices\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGold Price Real Rate, Dollar Regression\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBTC/USD Relevant Macro Correlations\n\n\n\n\n\n\n\n\n\nBTC/USD Sensitivity to Financial Conditions Changes\n\nFinancial conditions indices are typically constructed such that positive/rising values indicate tightening. Ex-ante, one would expect negative sensitivity readings in an environment of tight crypto&lt;-&gt;macro market linkages.\n\n\n\n\n\n\n\n\n\n\nBTC Exchange Net Flows\n\n\n\n\n\n\n\n\n\nETH Centralized Exchange Net Flow Metrics\n\n\n\n\n\n\n\n\n\nETH Centralized Exchange Net Flow Metrics"
   },
   {
     "objectID": "terms/index.html",
@@ -47,19 +68,5 @@
     "title": "60 Second Summary",
     "section": "",
     "text": "Learn More:"
-  },
-  {
-    "objectID": "underlying_ubs/index.html",
-    "href": "underlying_ubs/index.html",
-    "title": "UBS: Informative Underlying Indicators",
-    "section": "",
-    "text": "Global Cyclical Growth Factors\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFIXED INCOME: Market-Based Monetary Policy Factors\n\nRange on y-axis from bottom to top is dovish/loosening to hawkish/tightening\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUS Equity vs. Treasury Volatility Differentials, Return Correlation\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUS 10Y Breakeven Yields and Commodity Prices\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUS Treasury Curve PCA Analysis\n\n\n\n\n\n\n\n\n\nUS Rate Implied, Historical Volatility Comparisons\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarket-Based and Economic Data-Based Trend Inflation Deviation Factors\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFX: Broad USD Indicators\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCOMMODITIES: Gold Regression Residuals\n\n\n\n\n\n\n\n\n\nCRYPTO: BTC/USD Relevant Macro Correlations\n\n\n\n\n\n\n\n\n\nBTC/USD Sensitivity to Financial Conditions Changes\n\nFinancial conditions indices are typically constructed such that positive/rising values indicate tightening. Ex-ante, one would expect negative sensitivity readings in an environment of tight crypto&lt;-&gt;macro market linkages.\n\n\n\n\n\n\n\n\n\n\nBTC Exchange Net Flows\n\n\n\n\n\n\n\n\n\nETH Centralized Exchange Net Flow Metrics\n\n\n\n\n\n\n\n\n\nETH Centralized Exchange Net Flow Metrics"
-  },
-  {
-    "objectID": "probs_ubs/index.html",
-    "href": "probs_ubs/index.html",
-    "title": "UBS: Market Regime Probabilities",
-    "section": "",
-    "text": "FX: Dollar Index\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGBPUSD\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEURUSD\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAUDUSD\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEquity: S&P500\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNASDAQ\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUS Financials\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUS Consumer Discretionary\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInternational Equities: MSCI Eurozone\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMSCI EM\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFixed Income: Duration\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHigh Yield Credit\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCommodities: Copper\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCrypto: Bitcoin/USD\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nETH/USD"
   }
 ]

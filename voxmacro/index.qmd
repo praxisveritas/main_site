@@ -1,0 +1,13 @@
+---
+title: "Redirecting to Vox|Macro..."
+format:
+  html:
+    include-in-header:
+      text: |
+        <meta http-equiv="refresh" content="0; url=https://vox-macro.vercel.app">
+        <script>window.location.href = "https://vox-macro.vercel.app";</script>
+---
+
+Redirecting to [Vox|Macro](https://vox-macro.vercel.app)...
+
+If you are not redirected automatically, [click here](https://vox-macro.vercel.app).
